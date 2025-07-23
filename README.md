@@ -19,5 +19,5 @@
 
 1. **Κλωνοποίησε το αποθετήριο**:
    ```bash
-   git clone https://github.com/SakisAA/weather-cli.git
+   git clone https://github.com/SakisAA/weather_cli.git
    cd weather-cli
