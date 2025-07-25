@@ -2,7 +2,7 @@ import pytest
 from unittest.mock import patch
 import weather
 import os
-
+#μικρή αλλαγή
 def test_api_key_missing(monkeypatch):
     """Το API key πρέπει να υπάρχει αλλιώς σηκώνει ValueError"""
     monkeypatch.delenv("API_KEY", raising=False)
