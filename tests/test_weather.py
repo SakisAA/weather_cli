@@ -18,7 +18,7 @@ def test_successful_response(mock_get):
         "main": {"temp": 25},
         "wind": {"speed": 3}
     }
-
+ 
     result = weather.get_weather_data("Athens")
     assert result["main"]["temp"] == 25
     assert result["weather"][0]["description"] == "αίθριος"
